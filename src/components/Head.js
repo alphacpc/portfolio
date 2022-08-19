@@ -11,7 +11,7 @@ const HeadComponent = () => {
         <div className="HeaderContainer">
             <div className="Description">
                 <div>
-                    <h1>Ndambe FALL</h1>
+                    <h1>Ndambe FALL mafe</h1>
                     <h2>FullStack Dev & Junior Data Engineer</h2>
                 </div>
             </div>
