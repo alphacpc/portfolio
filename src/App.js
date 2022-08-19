@@ -1,4 +1,5 @@
 import React from 'react';
+import BodyComponent from './components/Body';
 import HeadComponent from './components/Head';
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
       
       <HeadComponent/>
 
+      <BodyComponent/>
 
     </div>
   )
