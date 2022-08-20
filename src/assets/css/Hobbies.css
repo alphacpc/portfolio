@@ -2,3 +2,19 @@
     padding: 70px 10%;
     background: powderblue;
 }
+
+.divHobbiesContainer ul{
+    width: 40%;
+}
+
+
+.divHobbiesContainer ul li span{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+
+.divHobbiesContainer ul li:nth-child(2n+1) span{
+    font-size: 30px;
+    font-weight: bold;
+}

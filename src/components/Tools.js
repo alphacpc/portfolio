@@ -2,11 +2,19 @@ import React from 'react'
 
 import "./../assets/css/Tools.css"
 
+import spark from "./../assets/images/logo/spark.png";
+
+import data from "./../data.json"
+
 const Tools = () => {
+
+  console.log("Valeur de data : ",data)
+
   return (
     <div className="divToolsContainer">
         <h2 className="mg-bt-20 small">Tools</h2>
         <div className="dis-flex space">
+            {/* <img src={spark} alt="" /> */}
             <span>Spark</span>
             <span>Airflow</span>
             <span>Pandas</span>
