@@ -1,9 +1,6 @@
 import React from 'react';
 import './../assets/css/head.css';
-import Discord from './../assets/images/icons1.png';
-import Gmail from './../assets/images/icons2.svg';
-import Linkedin from './../assets/images/icons3.png';
-import Github from './../assets/images/icons4.png';
+import { GithubOutlined, LinkedinOutlined, MediumOutlined, YoutubeOutlined, TwitterOutlined  } from "@ant-design/icons";
 import User from './../assets/images/photo3.png';
 
 const HeadComponent = () => {
@@ -11,21 +8,19 @@ const HeadComponent = () => {
         <div className="HeaderContainer">
             <div className="Description">
                 <div>
-                    <h1>Ndambe FALL mafe</h1>
-                    <h2>FullStack Dev & Junior Data Engineer</h2>
+                    <h1>Ndambe FALL</h1>
+                    <h2>FullStack Dev & Data Engineer</h2>
                 </div>
             </div>
 
             <div className="Photo">
                 <div>
                 <div className="LinksSocial">
-                    <img src={Discord} width="20" height="20" alt="discord"/>
-                    <img src={Linkedin} width="20" height="20" alt="Linkedin"/>
-                    <img src={Github} width="20" height="20" alt="github"/>
-                    <img src={Gmail} width="20" height="20" alt="gmail"/>
-                    <img src={Gmail} width="20" height="20" alt="medium"/>
-                    <img src={Gmail} width="20" height="20" alt="twitter"/>
-                    <img src={Gmail} width="20" height="20" alt="youtube"/>
+                    <GithubOutlined twoToneColor="#eb2f96" />
+                    <LinkedinOutlined style={{ fontSize: '16px', color: '#08c' }}  />
+                    <MediumOutlined style={{ fontSize: '16px', color: '#08c' }} theme="outlined"  />
+                    <YoutubeOutlined />
+                    <TwitterOutlined />
                 </div>
                 <div className="divUserPicture">
                     <img src={User} alt="me"/>
@@ -35,9 +30,10 @@ const HeadComponent = () => {
             
             <div className="WhiteSpace">
                 <div className="ListLinks">
-                    <a href="/">Présentation</a>
+                    <a href="/">A propos de moi</a>
                     <a href="/">Quelques projets</a>
                     <a href="/">Outils & Technos</a>
+                    <a href="/">Hobbies</a>
                     <a href="/">Telechager CV</a>
                 </div>
             </div>
