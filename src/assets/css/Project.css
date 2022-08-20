@@ -7,3 +7,52 @@
     font-size: 45px;
     text-align: center;
 }
+
+.divProjects{
+    /* background: magenta; */
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.divProjectItem{
+    /* background: turquoise; */
+    width: 30%;
+}
+
+.divProjectItem div{
+    /* background: sienna; */
+    position: relative;
+    min-height: 42vh;
+}
+
+
+.divProjectItem div img{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    border-radius: 4px;
+    cursor: pointer;
+    object-fit: cover;
+    z-index: 1;
+    transition: all ease .3s;
+}
+
+.divProjectItem div img:hover{
+    z-index: 3;
+    box-shadow: 0 4px 6px 0 #000;
+
+}
+
+
+.divProjectItem div img:nth-child(2){
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.divProjectItem div img:nth-child(3){
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}

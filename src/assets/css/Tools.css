@@ -1,0 +1,11 @@
+.divToolsContainer{
+    padding: 70px 10%;
+}
+
+.divToolsContainer div{
+    flex-wrap: wrap;
+}
+
+.divToolsContainer span{
+    width: 10%;
+}

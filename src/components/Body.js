@@ -1,6 +1,8 @@
 import React from 'react'
 import About from './About';
+import Hobbies from './Hobbies';
 import Projects from './Projects';
+import Tools from './Tools';
 
 
 const BodyComponent = () => {
@@ -8,6 +10,8 @@ const BodyComponent = () => {
         <div className="divBodyContainer">
             <About/>
             <Projects/>
+            <Tools/>
+            <Hobbies/>
         </div>
     )
 }
