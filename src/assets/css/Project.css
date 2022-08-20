@@ -1,0 +1,9 @@
+.divProjectContainer{
+    background: yellow;
+    padding:  70px 10%;
+}
+
+.divProjectContainer h2{
+    font-size: 45px;
+    text-align: center;
+}

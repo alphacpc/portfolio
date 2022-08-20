@@ -55,12 +55,11 @@
     background-color: yellow;
 }
 .Photo .LinksSocial{
-    /* background-color: aqua; */
     justify-content: center;
     display: flex;
     padding: 10px 20px;
 }
-.Photo .LinksSocial img{
+.Photo .LinksSocial a{
     margin-right: 20px;
     object-fit: contain;
 }
@@ -68,11 +67,6 @@
 .Photo .divUserPicture img{
     width: 100%;
 }
-
-
-
-
-
 
 
 

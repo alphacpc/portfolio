@@ -1,11 +1,13 @@
 import React from 'react'
-
+import About from './About';
+import Projects from './Projects';
 
 
 const BodyComponent = () => {
     return (
-        <div>
-            <h2>Hello world !</h2>
+        <div className="divBodyContainer">
+            <About/>
+            <Projects/>
         </div>
     )
 }

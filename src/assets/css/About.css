@@ -1,0 +1,17 @@
+.divAboutContainer{
+    /* background: steelblue; */
+    padding:  70px 10%;
+}
+
+.divLeft{
+    width: 60%;
+}
+
+.divLeft h2{
+    font-size: 45px;
+}
+
+.divLeft p{
+    text-align: justify;
+    line-height: 40px;
+}
