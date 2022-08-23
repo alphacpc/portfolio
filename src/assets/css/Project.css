@@ -9,21 +9,19 @@
 }
 
 .divProjects{
-    /* background: magenta; */
     width: 100%;
     flex-wrap: wrap;
     margin-top: 40px;
 }
 
 .divProjectItem{
-    /* background: turquoise; */
     width: 30%;
+    margin-bottom: 40px;
 }
 
 .divProjectItem div{
-    /* background: sienna; */
     position: relative;
-    min-height: 42vh;
+    min-height: 38vh;
 }
 
 
@@ -55,4 +53,15 @@
     position: absolute;
     top: 40px;
     left: 40px;
+}
+
+
+.divProjectItem button{
+    background: red;
+    width: 180px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
 }

@@ -14,13 +14,13 @@ const Projects = () => {
                [1,2,3, 4].map( el => {
                    return (
                     <div className="divProjectItem dis-flex col">
-                        <h3>ecommerce</h3>
+                        <h3 className="mg-bottom-20">ecommerce</h3>
                         <div className="">
                             <img src={cap1} alt="ecommerce" />
                             <img src={cap2} alt="ecommerce" />
                             <img src={cap3} alt="ecommerce" />
                         </div>
-                        {/* <button>Voir plus</button> */}
+                        <button className='pd-15'>Code Source</button>
                     </div>
                    )
                })

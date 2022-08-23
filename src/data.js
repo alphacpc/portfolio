@@ -9,6 +9,8 @@ export const tools = {
         require("./assets/images/logo/kibana.png"),
         require("./assets/images/logo/d3.png"),
         require("./assets/images/logo/chartjs.png"),
+        require("./assets/images/logo/matplot.png"),
+        require("./assets/images/logo/seaborn.png"),
         require("./assets/images/logo/mongo.png"),
         require("./assets/images/logo/neo4j.png"),
         require("./assets/images/logo/postgres.png"),
