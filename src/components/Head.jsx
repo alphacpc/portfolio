@@ -15,22 +15,26 @@ const HeadComponent = () => {
 
             <div className="Photo">
                 <div>
-                <div className="LinksSocial">
-                    <a href="#m"><GithubOutlined style={{ fontSize: '30px' }} /></a>
-                    <a href="#m"><LinkedinOutlined style={{ fontSize: '30px' }}  /></a>
-                    <a href="#m"><MediumOutlined style={{ fontSize: '30px' }}/></a>
-                    <a href="#m"><YoutubeOutlined style={{ fontSize: '30px' }} /></a>
-                    <a href="#m"><TwitterOutlined style={{ fontSize: '30px' }} /></a>
+                    <div className="LinksSocial">
+                        <a href="#m"><GithubOutlined style={{ fontSize: '30px' }} /></a>
+                        <a href="#m"><LinkedinOutlined style={{ fontSize: '30px' }}  /></a>
+                        <a href="#m"><MediumOutlined style={{ fontSize: '30px' }}/></a>
+                        <a href="#m"><YoutubeOutlined style={{ fontSize: '30px' }} /></a>
+                        <a href="#m"><TwitterOutlined style={{ fontSize: '30px' }} /></a>
+                    </div>
+                    <div className="divUserPicture">
+                        <img src={User} alt="me"/>
+                    </div>
                 </div>
-                <div className="divUserPicture">
-                    <img src={User} alt="me"/>
-                </div>
-                </div>
+            </div>
+
+            <div className="lang">
+                hello
             </div>
             
             <div className="WhiteSpace">
                 <div className="ListLinks">
-                    <a href="/">A propos de moi</a>
+                    <a href="/">Alpha ???</a>
                     <a href="/">Quelques projets</a>
                     <a href="/">Outils & Technos</a>
                     <a href="/">Hobbies</a>

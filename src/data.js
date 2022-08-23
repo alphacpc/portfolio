@@ -6,9 +6,25 @@ export const tools = {
         require("./assets/images/logo/kafka.png"),
         require("./assets/images/logo/elasticsearch.png"),
         require("./assets/images/logo/logstash.png"),
-        require("./assets/images/logo/kibana.jpg"),
+        require("./assets/images/logo/kibana.png"),
         require("./assets/images/logo/d3.png"),
         require("./assets/images/logo/chartjs.png"),
-        require("./assets/images/logo/mongo.png")
+        require("./assets/images/logo/mongo.png"),
+        require("./assets/images/logo/neo4j.png"),
+        require("./assets/images/logo/postgres.png"),
+        require("./assets/images/logo/mysql.png"),
+        require("./assets/images/logo/reactjs.png"),
+        require("./assets/images/logo/angular.png"),
+        require("./assets/images/logo/flask.png"),
+        require("./assets/images/logo/django.png"),
+        require("./assets/images/logo/wordpress.png"),
+        require("./assets/images/logo/nodejs.png"),
+        require("./assets/images/logo/figma.png"),
+        require("./assets/images/logo/graphql.png"),
+        require("./assets/images/logo/beautifulsoup.png"),
+        require("./assets/images/logo/puppeteer.png"),
+        require("./assets/images/logo/selenium.png"),
+        require("./assets/images/logo/docker.png"),
+        require("./assets/images/logo/git.png")
     ]
 }
