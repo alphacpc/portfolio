@@ -9,9 +9,17 @@ const Tools = () => {
 
   return (
     <div className="divToolsContainer">
-        <h2 className="mg-bt-20 small">Tools</h2>
-        <div className="dis-flex space">
-            { tools.tools.map( (logo,i) => <img className='mg-20' key={i} src={logo.default} alt="hello" />) }
+        
+        <h2 className="mg-bt-20 small">Compétences techniques</h2>
+
+        <div className="divTools">
+            { tools.map( (logo,i) => {
+              return <div className="toolsItem" key={i}>
+                <h3> <span></span> {logo["title"]}</h3>
+                {logo["images"].map( (image, id) => <img className='mg-20' key={id} src={image.default} alt={image} /> )}
+              </div>
+            })
+            }
         </div>
     </div>
   )

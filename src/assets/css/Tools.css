@@ -6,6 +6,38 @@
     flex-wrap: wrap;
 }
 
+
+.divToolsContainer h2{
+    font-size: 65px !important;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.toolsItem{
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divToolsContainer .divTitle{
+    background: springgreen;
+}
+
+.toolsItem h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+    width: 100%;
+    color: tomato;
+}
+
+.toolsItem h3 span{
+    background: teal;
+    padding: 0px 20px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+
 .divToolsContainer div img{
     width: 200px;
     height: 200px;
@@ -16,3 +48,4 @@
 .divToolsContainer span{
     width: 10%;
 }
+
