@@ -1,17 +1,39 @@
 .divAboutContainer{
-    /* background: steelblue; */
-    padding:  70px 10%;
+    padding:  100px 10%;
 }
 
-.divLeft{
-    width: 60%;
+.divAboutContainer h2{
+    font-size: 65px;
 }
 
-.divLeft h2{
-    font-size: 45px;
+.divDisplay{
+    display: flex;
+    align-items: center;
 }
 
-.divLeft p{
+.divAbout div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.divAbout div span{
+    padding: 10px;
+    background: teal;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.divAbout.second div{
+    flex-direction: row-reverse;
+}
+
+.divAbout div span{
+    margin-left: 20px;
+}
+
+
+
+.divAbout p{
     text-align: justify;
-    line-height: 40px;
 }

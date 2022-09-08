@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-import "./../assets/css/Tools.css"
+import "./../assets/css/Tools.css";
 
-import { tools } from "../data"
+import { tools } from "../data";
 
 const Tools = () => {
 
@@ -25,4 +25,4 @@ const Tools = () => {
   )
 }
 
-export default Tools
+export default Tools;

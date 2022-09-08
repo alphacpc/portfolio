@@ -58,8 +58,6 @@ export const tools = [
             require("./assets/images/logo/graphql.png"),
             require("./assets/images/logo/figma.png"),
             require("./assets/images/logo/pandas.png"),
-
-
         ]
     }
 ]
