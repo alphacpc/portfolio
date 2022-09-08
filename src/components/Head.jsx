@@ -2,14 +2,16 @@ import { GithubOutlined, LinkedinOutlined, MediumOutlined, YoutubeOutlined, Twit
 import User from './../assets/images/photo3.png';
 import './../assets/css/head.css';
 
+import { langages } from "../data"
+
 
 const HeadComponent = () => {
     return (
         <div className="HeaderContainer">
             <div className="Description">
                 <div>
-                    <h1>Ndambe FALL</h1>
-                    <h2>FullStack Dev & Data Engineer</h2>
+                    <h1>Alpha <br></br> amadou <br></br> DIALLO</h1>
+                    <h2>FullStack Dev & <br></br> Data Engineer</h2>
                 </div>
             </div>
 
@@ -28,8 +30,8 @@ const HeadComponent = () => {
                 </div>
             </div>
 
-            <div className="lang">
-                hello
+            <div className="divLangages">
+                { langages.map(lang => <img src={lang.default} alt={lang.default}/>)}
             </div>
             
             <div className="WhiteSpace">
