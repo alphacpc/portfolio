@@ -10,7 +10,7 @@ const Tools = () => {
   return (
     <div id="tools" className="divToolsContainer">
         
-        <h2 className="mg-bt-20 small">Compétences techniques</h2>
+        <h2 className="mg-bt-20 small">Compétences Techniques</h2>
 
         <div className="divTools">
             { tools.map( (logo,i) => {

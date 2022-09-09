@@ -7,7 +7,7 @@ const Projects = () => {
 
   return (
     <div id="projects" className="divProjectContainer">
-        <h2 className="h2Label mg-bt-20">Projets réalisés</h2>
+        <h2 className="h2Label mg-bt-20">Projets Réalisés</h2>
         <div className="divProjects dis-flex space">
            {
                projects.map( (project, id) => {
