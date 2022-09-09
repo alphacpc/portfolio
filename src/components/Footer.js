@@ -2,8 +2,8 @@ import React from 'react'
 
 const FooterComponent = () => {
     return (
-        <div>
-            
+        <div className="divFooter">
+            <p>Copyrights reserved!</p>
         </div>
     )
 }

@@ -69,3 +69,31 @@ export const langages = [
     require("./assets/images/lang/scala.png"),
     require("./assets/images/lang/python.jpeg"),
 ]
+
+
+export const projects = [
+    {
+        "name" : "Ecommerce",
+        "capture" : require("./assets/images/projects/ecommerce/capture1.png"),
+        "source": "https://github.com/alphacpc"
+    },
+    {
+        "name" : "Ecommerce",
+        "capture" : require("./assets/images/projects/ecommerce/capture1.png"),
+        "source": "https://github.com/alphacpc"
+    },
+    {
+        "name" : "Ecommerce",
+        "capture" : require("./assets/images/projects/ecommerce/capture1.png"),
+        "source": "https://github.com/alphacpc"
+    },
+    {
+        "name" : "Ecommerce",
+        "capture" : require("./assets/images/projects/ecommerce/capture1.png"),
+        "source": "https://github.com/alphacpc"
+    }
+]
+
+
+
+export const hobbies = ["Football", "HipHop", "E-learning", "Documentary", "Talks Devoxxx", "Teaching", "Travel", "Jogging"]

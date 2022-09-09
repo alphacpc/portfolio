@@ -1,22 +1,23 @@
 import React from 'react'
 import "./../assets/css/Project.css"
-
-import cap1 from "./../assets/images/projects/ecommerce/capture1.png"
+import { projects } from "../data"
 
 const Projects = () => {
+
+
   return (
     <div className="divProjectContainer">
         <h2 className="h2Label mg-bt-20">Projets réalisés</h2>
         <div className="divProjects dis-flex space">
            {
-               [1,2,3,4,1,2,4,3,3].map( el => {
+               projects.map( (project, id) => {
                    return (
-                    <div className="divProjectItem dis-flex col">
-                        <h3>ecommerce</h3>
+                    <div className="divProjectItem dis-flex col" key={id}>
+                        <h3>{project['name']}</h3>
                         <div className="">
-                            <img src={cap1} alt="ecommerce" />
+                            <img src={project['capture'].default} alt="ecommerce" />
                         </div>
-                        <button className='pd-15'>Code Source</button>
+                        <a href={project['source']} target="_blank" className='pd-15'>Code Source</a>
                     </div>
                    )
                })

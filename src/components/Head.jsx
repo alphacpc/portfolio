@@ -6,11 +6,12 @@ import { langages } from "../data"
 
 
 const HeadComponent = () => {
+
     return (
         <div className="HeaderContainer">
             <div className="Description">
                 <div>
-                    <h1>Alpha <br></br> amadou <br></br> DIALLO</h1>
+                    <h1>Ndambe <br></br> Mafe <br></br> FALL</h1>
                     <h2>FullStack Dev & <br></br> Data Engineer</h2>
                 </div>
             </div>
@@ -31,12 +32,12 @@ const HeadComponent = () => {
             </div>
 
             <div className="divLangages">
-                { langages.map(lang => <img src={lang.default} alt={lang.default}/>)}
+                { langages.map( (lang, id) => <img key={id} src={lang.default} alt={lang.default}/>)}
             </div>
             
             <div className="WhiteSpace">
                 <div className="ListLinks">
-                    <a href="/">Alpha ???</a>
+                    <a href="/">Ndambe ???</a>
                     <a href="/">Quelques projets</a>
                     <a href="/">Outils & Technos</a>
                     <a href="/">Hobbies</a>

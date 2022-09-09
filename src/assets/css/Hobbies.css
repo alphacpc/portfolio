@@ -1,12 +1,33 @@
 .divHobbiesContainer{
-    padding: 70px 10%;
+    padding: 15vh 10%;
     background: powderblue;
+    background: linear-gradient(to right, #000000ac, #00000091),url("./../images/banner.jpg") no-repeat fixed;
+    background-size: cover;
+    margin-bottom: 30vh;
+}
+
+.divHobbiesContainer h2{
+    color: #FFF;
+    font-size: 65px !important;
+    text-align: start;
 }
 
 .divHobbiesContainer ul{
-    width: 40%;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
+
+.divHobbiesContainer ul li{
+    /* margin-bottom: 0 !important; */
+    margin-right: 20px;
+    background: red;
+    padding: 10px;
+    border-radius: 4px;
+}
 
 .divHobbiesContainer ul li span{
     font-size: 25px;
