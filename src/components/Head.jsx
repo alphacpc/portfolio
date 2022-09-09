@@ -1,5 +1,5 @@
 import { GithubOutlined, LinkedinOutlined, MediumOutlined, YoutubeOutlined, TwitterOutlined  } from "@ant-design/icons";
-import User from './../assets/images/photo3.png';
+// import User from './../assets/images/photo3.png';
 import './../assets/css/head.css';
 
 import { langages } from "../data"
@@ -9,6 +9,11 @@ const HeadComponent = () => {
 
     return (
         <div className="HeaderContainer">
+
+            <span className="bouleSmall boule"></span>
+            <span className="bouleLittle boule"></span>
+
+
             <div className="Description">
                 <div>
                     <h1>Ndambe <br></br> Mafe <br></br> FALL</h1>
@@ -34,11 +39,12 @@ const HeadComponent = () => {
             
             <div className="WhiteSpace">
                 <div className="ListLinks">
-                    <a href="/">Ndambe ???</a>
-                    <a href="/">Quelques projets</a>
-                    <a href="/">Outils & Technos</a>
-                    <a href="/">Hobbies</a>
-                    <a href="/">Telechager CV</a>
+                    <a href="/">Présentation</a>
+                    <a href="/">Projets</a>
+                    <a href="/">Outils</a>
+                    <a href="/">Centre d'Interet</a>
+                    <a href="/">Contact</a>
+                    <a href="/">Téléchager CV</a>
                 </div>
             </div>
 

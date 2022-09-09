@@ -1,9 +1,9 @@
-/* Css for Header */
 .HeaderContainer{
     background-color: #ffffff;
     height: 100vh;
     display: flex;
     padding-left: 10%;
+    position: relative;
 }
 
 
@@ -16,7 +16,7 @@
     right: 0;
     bottom: 0;
     width: 90%;
-    border-radius: 80px 0 0 0;
+    border-radius: 80px 0 0 80px;
 }
 .Description> div{
     display: block;
@@ -57,6 +57,7 @@
     z-index: 44;
     width: 25%;
     background-color: yellow;
+    border-radius: 0 0% 50% 50%;
 }
 .Photo .LinksSocial{
     justify-content: center;
@@ -68,14 +69,10 @@
     object-fit: contain;
 }
 
-.Photo .divUserPicture img{
-    width: 100%;
-}
 
 
 
 .divLangages{
-    background-color: red;
     height: 60vh;
     position: absolute;
     right: 0;
@@ -100,11 +97,12 @@
 
 .WhiteSpace{
     background-color: #ffffff;
-    height: 15vh;
+    height: 10vh;
     position: absolute;
     right: 0;
     bottom: 0;
     width: 70%;
+    border-radius: 80px 0 0 0px;
 }
 
 .WhiteSpace .ListLinks{
@@ -121,4 +119,37 @@
     color: #333333;
     font-size: 20px;
     letter-spacing: 1px;
+    font-weight: bold;
+    transition: all ease .3s;
+}
+
+.ListLinks a:hover{
+    color: teal;
+}
+
+
+
+
+/* ********************** */
+/* ***** BOULE SPAN **** */
+/* ******************** */
+
+.boule{
+    background: orange;
+    border-radius: 50%;
+    position: absolute;
+    transition: all ease .3s;
+    z-index: 45;
+}
+
+.bouleSmall{
+    padding: 180px;
+    top: 25vh !important;
+    right: 5vw;
+}
+
+.bouleLittle{
+    padding: 120px;
+    left: 40vw;
+    top: 45vh;
 }

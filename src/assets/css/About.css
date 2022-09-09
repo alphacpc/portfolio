@@ -1,9 +1,14 @@
 .divAboutContainer{
     padding:  100px 10%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .divAboutContainer h2{
     font-size: 65px;
+    width: 100%;
 }
 
 .divDisplay{
