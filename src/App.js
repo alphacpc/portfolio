@@ -7,6 +7,7 @@ import { FileOutlined } from "@ant-design/icons";
 
 
 import './assets/css/App.css';
+import './assets/css/Tablette.css';
 
 import Logo from "./assets/images/logo.png"
 
