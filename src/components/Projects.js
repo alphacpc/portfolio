@@ -17,7 +17,7 @@ const Projects = () => {
                         <div className="">
                             <img src={project['capture'].default} alt="ecommerce" />
                         </div>
-                        <a href={project['source']} target="_blank" className='pd-15'>Code Source</a>
+                        <a href={project['source']} target="_blank" rel="noopener noreferrer" className='pd-15'>Code Source</a>
                     </div>
                    )
                })

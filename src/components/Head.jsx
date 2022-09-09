@@ -23,11 +23,11 @@ const HeadComponent = () => {
             <div className="Photo">
                 <div>
                     <div className="LinksSocial">
-                        <a href="https://github.com/alphacpc" target="_blank"><GithubOutlined style={{ fontSize: '30px' }} /></a>
-                        <a href="https://www.linkedin.com/in/alpha-amadou-diallo/" target="_blank"><LinkedinOutlined style={{ fontSize: '30px' }}  /></a>
-                        <a href="https://medium.com/@alphacpc" target="_blank"><MediumOutlined style={{ fontSize: '30px' }}/></a>
-                        <a href="https://www.youtube.com/channel/UCNpcpy42ZP0S-9milauA_qw" target="_blank"><YoutubeOutlined style={{ fontSize: '30px' }} /></a>
-                        <a href="https://twitter.com/pie_alp" target="_blank"><TwitterOutlined style={{ fontSize: '30px' }} /></a>
+                        <a href="https://github.com/alphacpc" target="_blank" rel="noopener noreferrer"><GithubOutlined style={{ fontSize: '30px' }} /></a>
+                        <a href="https://www.linkedin.com/in/alpha-amadou-diallo/" target="_blank" rel="noopener noreferrer"><LinkedinOutlined style={{ fontSize: '30px' }}  /></a>
+                        <a href="https://medium.com/@alphacpc" target="_blank" rel="noopener noreferrer"><MediumOutlined style={{ fontSize: '30px' }}/></a>
+                        <a href="https://www.youtube.com/channel/UCNpcpy42ZP0S-9milauA_qw" target="_blank" rel="noopener noreferrer"><YoutubeOutlined style={{ fontSize: '30px' }} /></a>
+                        <a href="https://twitter.com/pie_alp" target="_blank" rel="noopener noreferrer"><TwitterOutlined style={{ fontSize: '30px' }} /></a>
                     </div>
                 </div>
             </div>
