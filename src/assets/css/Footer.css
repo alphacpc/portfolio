@@ -1,3 +1,5 @@
 .divFooter{
-    background: red;
+    background: rgba(12, 12, 12, 0.946);
+    color: #FFF;
+    padding: 20px 10%;
 }

@@ -12,7 +12,7 @@ const HeadComponent = () => {
             <div className="Description">
                 <div>
                     <h1>Ndambe <br></br> Mafe <br></br> FALL</h1>
-                    <h2>FullStack Dev & <br></br> Data Engineer</h2>
+                    <h2>FullStack Dev & <br></br>Data Engineer</h2>
                 </div>
             </div>
 
@@ -24,9 +24,6 @@ const HeadComponent = () => {
                         <a href="https://medium.com/@alphacpc" target="_blank"><MediumOutlined style={{ fontSize: '30px' }}/></a>
                         <a href="https://www.youtube.com/channel/UCNpcpy42ZP0S-9milauA_qw" target="_blank"><YoutubeOutlined style={{ fontSize: '30px' }} /></a>
                         <a href="https://twitter.com/pie_alp" target="_blank"><TwitterOutlined style={{ fontSize: '30px' }} /></a>
-                    </div>
-                    <div className="divUserPicture">
-                        <img src={User} alt="me"/>
                     </div>
                 </div>
             </div>

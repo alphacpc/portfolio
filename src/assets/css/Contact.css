@@ -1,0 +1,26 @@
+.containerContact{
+    padding: 8vh 10%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contactItem{
+    text-align: center;
+}
+
+.contactItem div{
+    margin-top: 20px;
+}
+
+.contactItem div span{
+    font-size: 25px;
+    letter-spacing: 0.5px !important;
+}
+
+.contactItem .dis-flex{
+    flex-direction: column;
+}
+
+.contactItem .dis-flex span:first-child{
+    margin-bottom: 10px;
+}

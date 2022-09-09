@@ -66,8 +66,9 @@ export const tools = [
 
 export const langages = [
     require("./assets/images/lang/js.png"),
+    require("./assets/images/lang/python.png"),
     require("./assets/images/lang/scala.png"),
-    require("./assets/images/lang/python.jpeg"),
+    require("./assets/images/lang/java.png"),
 ]
 
 

@@ -80,13 +80,18 @@
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 600px;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .divLangages img{
     width: 100px;
     height: 100px;
     object-fit: contain;
+    margin-right: 30px;
 }
 
 

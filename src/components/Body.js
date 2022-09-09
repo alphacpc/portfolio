@@ -1,5 +1,6 @@
 import React from 'react'
 import About from './About';
+import Contact from './Contact';
 import Hobbies from './Hobbies';
 import Projects from './Projects';
 import Tools from './Tools';
@@ -12,6 +13,7 @@ const BodyComponent = () => {
             <Projects/>
             <Tools/>
             <Hobbies/>
+            <Contact/>
         </div>
     )
 }

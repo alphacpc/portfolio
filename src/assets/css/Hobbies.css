@@ -3,7 +3,6 @@
     background: powderblue;
     background: linear-gradient(to right, #000000ac, #00000091),url("./../images/banner.jpg") no-repeat fixed;
     background-size: cover;
-    margin-bottom: 30vh;
 }
 
 .divHobbiesContainer h2{

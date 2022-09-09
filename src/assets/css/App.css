@@ -142,3 +142,63 @@ p{
     padding: 0 10px ;
 }
 
+
+
+
+/* ************************** */
+/* ***** Fixed NavBar ****** */
+/* ************************ */
+.divNavbarFixed{
+    display: none;
+    align-items: center;
+    background: orange;
+    padding: 10px 10%;
+    justify-content: space-between;
+    transition: all ease .3s;
+}
+
+.divNavbarFixed.fixed{
+    background: blue !important;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top:0;
+    display: flex;
+}
+
+.divNavbarFixed img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.divNavbarFixed nav ul{
+    display: flex;
+}
+
+.divNavbarFixed nav ul li{
+    margin: 0 20px ;
+    font-size: 20px;
+}
+
+.downloadCV{
+    display: none;
+    cursor: pointer;
+    transition: all ease .3s;
+}
+
+.downloadCV.bottom{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: block;
+    background: blue;
+    padding: 15px 20px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #FFF;
+    border: none;
+    box-shadow: 0 4px 8px 0 #000000;
+}
