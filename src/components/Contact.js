@@ -4,7 +4,7 @@ import "../assets/css/Contact.css"
 
 const Contact = () => {
   return (
-    <div className="containerContact dis-flex space">
+    <div id="contact" className="containerContact dis-flex space">
         <div className="contactItem">
             <PhoneOutlined style={{ fontSize: '60px' }}/>
             <div className="dis-flex">

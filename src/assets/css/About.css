@@ -1,5 +1,5 @@
 .divAboutContainer{
-    padding:  100px 10%;
+    padding:  200px 10% 0 10%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;

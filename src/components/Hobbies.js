@@ -5,7 +5,7 @@ import "./../assets/css/Hobbies.css";
 
 const Hobbies = () => {
   return (
-    <div className="divHobbiesContainer">
+    <div id="hobbies" className="divHobbiesContainer">
         <h2 className="small text-center">Centre d'Interets</h2>
         <div className="dis-flex space align-center">
             <ul>

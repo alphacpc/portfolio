@@ -5,7 +5,7 @@ import Photo from "./../assets/images/photo3.png"
 
 const About = () => {
   return (
-    <div className="divAboutContainer align-center">
+    <div id="about" className="divAboutContainer align-center">
         <h2 className="mg-bt-20">About</h2>
         
         <div className="dis-flex space divDisplay">

@@ -1,5 +1,4 @@
 import { GithubOutlined, LinkedinOutlined, MediumOutlined, YoutubeOutlined, TwitterOutlined  } from "@ant-design/icons";
-// import User from './../assets/images/photo3.png';
 import './../assets/css/head.css';
 
 import { langages } from "../data"
@@ -39,12 +38,12 @@ const HeadComponent = () => {
             
             <div className="WhiteSpace">
                 <div className="ListLinks">
-                    <a href="/">Présentation</a>
-                    <a href="/">Projets</a>
-                    <a href="/">Outils</a>
-                    <a href="/">Centre d'Interet</a>
-                    <a href="/">Contact</a>
-                    <a href="/">Téléchager CV</a>
+                    <a href="#about">Présentation</a>
+                    <a href="#projects">Projets</a>
+                    <a href="#tools">Outils</a>
+                    <a href="#hobbies">Centre d'Interet</a>
+                    <a href="#contact">Contact</a>
+                    <button type="download">Téléchager CV</button>
                 </div>
             </div>
 

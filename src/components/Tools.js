@@ -8,7 +8,7 @@ const Tools = () => {
 
 
   return (
-    <div className="divToolsContainer">
+    <div id="tools" className="divToolsContainer">
         
         <h2 className="mg-bt-20 small">Compétences techniques</h2>
 

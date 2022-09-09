@@ -158,7 +158,7 @@ p{
 }
 
 .divNavbarFixed.fixed{
-    background: teal !important;
+    background: #fff !important;
     position: fixed;
     width: 100%;
     z-index: 1000;
@@ -181,6 +181,12 @@ p{
 .divNavbarFixed nav ul li{
     margin: 0 20px ;
     font-size: 20px;
+}
+
+.divNavbarFixed nav ul li a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
 }
 
 .downloadCV{

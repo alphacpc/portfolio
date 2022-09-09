@@ -56,7 +56,7 @@
     height: 100%;
     z-index: 44;
     width: 25%;
-    background-color: yellow;
+    background-color: orange;
     border-radius: 0 0% 50% 50%;
 }
 .Photo .LinksSocial{
@@ -67,6 +67,7 @@
 .Photo .LinksSocial a{
     margin-right: 20px;
     object-fit: contain;
+    color: #333333;
 }
 
 
@@ -123,10 +124,24 @@
     transition: all ease .3s;
 }
 
+.ListLinks button{
+    background: teal;
+    border: none;
+    padding: 10px;
+    border-radius: 20px 40px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all ease .3s;
+}
+
 .ListLinks a:hover{
     color: teal;
 }
 
+.ListLinks button:hover{
+    background: rgb(26, 77, 77);
+}
 
 
 
@@ -140,16 +155,67 @@
     position: absolute;
     transition: all ease .3s;
     z-index: 45;
+    opacity: .8;
 }
 
 .bouleSmall{
     padding: 180px;
     top: 25vh !important;
     right: 5vw;
+    animation: move infinite 10s;
+
 }
 
 .bouleLittle{
     padding: 120px;
     left: 40vw;
     top: 45vh;
+    animation: scaler infinite 20s;
+}
+
+
+@keyframes scaler {
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.5);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+@keyframes move {
+    0%{
+        transform: translate(20px,20px);
+
+    }
+    15%{
+        transform: translateX(-20px);
+    }
+
+    30%{
+        transform: translate(10px, 10px);
+    }
+
+    45%{
+        transform: translateX(20px);
+    }
+
+    60%{
+        transform: translate(50px, 50px);
+    }
+
+    75%{
+        transform: translateX(-50px);
+    }
+
+    100%{
+        transform: translate(20px, 20px);
+
+    }
 }
