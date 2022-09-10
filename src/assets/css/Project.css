@@ -36,6 +36,8 @@
     object-fit: cover;
     z-index: 1;
     transition: all ease .3s;
+    height: 26vh;
+    object-fit: cover;
 }
 
 .divProjectItem div img:hover{

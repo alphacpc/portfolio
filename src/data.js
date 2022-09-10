@@ -75,22 +75,37 @@ export const langages = [
 export const projects = [
     {
         "name" : "Ecommerce",
-        "capture" : require("./assets/images/projects/ecommerce/capture1.png"),
+        "capture" : require("./assets/images/projects/ecommerce.png"),
         "source": "https://github.com/alphacpc"
     },
     {
-        "name" : "Ecommerce",
-        "capture" : require("./assets/images/projects/ecommerce/capture1.png"),
+        "name" : "Election 2019",
+        "capture" : require("./assets/images/projects/election.png"),
         "source": "https://github.com/alphacpc"
     },
     {
-        "name" : "Ecommerce",
-        "capture" : require("./assets/images/projects/ecommerce/capture1.png"),
+        "name" : "Arbre Génealogique",
+        "capture" : require("./assets/images/projects/family.png"),
         "source": "https://github.com/alphacpc"
     },
     {
-        "name" : "Ecommerce",
-        "capture" : require("./assets/images/projects/ecommerce/capture1.png"),
+        "name" : "Klimatik",
+        "capture" : require("./assets/images/projects/klimatik.png"),
+        "source": "https://github.com/alphacpc"
+    },
+    {
+        "name" : "Sakoo",
+        "capture" : require("./assets/images/projects/sakoo.png"),
+        "source": "https://github.com/alphacpc"
+    },
+    {
+        "name" : "Trafic Réseau",
+        "capture" : require("./assets/images/projects/wifi.png"),
+        "source": "https://github.com/alphacpc"
+    },
+    {
+        "name" : "Moteur de recherche",
+        "capture" : require("./assets/images/projects/moteur.png"),
         "source": "https://github.com/alphacpc"
     }
 ]

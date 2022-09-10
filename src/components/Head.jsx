@@ -15,7 +15,7 @@ const HeadComponent = () => {
 
             <div className="Description">
                 <div>
-                    <h1>Ndambe <br></br> Mafe <br></br> FALL</h1>
+                    <h1>Alpha <br></br> amadou <br></br> DIALLO</h1>
                     <h2>FullStack Dev & <br></br>Data Engineer</h2>
                 </div>
             </div>
