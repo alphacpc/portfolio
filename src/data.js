@@ -107,6 +107,31 @@ export const projects = [
         "name" : "Moteur de recherche",
         "capture" : require("./assets/images/projects/moteur.png"),
         "source": "https://github.com/alphacpc"
+    },
+    {
+        "name" : "Blog",
+        "capture" : require("./assets/images/projects/api.png"),
+        "source": "https://github.com/alphacpc"
+    },
+    {
+        "name" : "Comparateur de Prix",
+        "capture" : require("./assets/images/projects/chicken.png"),
+        "source": "https://github.com/alphacpc"
+    },
+    {
+        "name" : "Convertisseur",
+        "capture" : require("./assets/images/projects/convert.png"),
+        "source": "https://github.com/alphacpc"
+    },
+    {
+        "name" : "Covid-19",
+        "capture" : require("./assets/images/projects/covid.png"),
+        "source": "https://github.com/alphacpc"
+    },
+    {
+        "name" : "Youtube Downloader",
+        "capture" : require("./assets/images/projects/youtube.png"),
+        "source": "https://github.com/alphacpc"
     }
 ]
 
