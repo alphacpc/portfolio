@@ -14,31 +14,60 @@
 .divDisplay{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin: 100px;
+    width: 100%;
 }
+
+
+/* ****************** */
+.divAbout,
+.divImageMe{
+    flex: 1;
+}
+
+.divAbout{
+    /* background: turquoise; */
+    flex: 2;
+}
+
+.divImageMe{
+    text-align: center;
+}
+
+
+/* ****************** */
+
 
 .divAbout div{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 50px;
 }
 
-.divAbout div span{
-    padding: 10px;
-    background: teal;
-    border-radius: 50%;
+.divAbout > div:first-child span.circle{
+    padding: 15px;
+    background: orangered;
     margin-right: 20px;
+    width: 10px;
+    height: 10px;
+
 }
 
 .divAbout.second div{
     flex-direction: row-reverse;
 }
 
-.divAbout div span{
+.divAbout div span.circle{
     margin-left: 20px;
 }
 
 
 
-.divAbout p{
-    text-align: justify;
+.divAbout p,
+.divAbout p span{
+    /* text-align: justify; */
+    line-height: 45px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
 }

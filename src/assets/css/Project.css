@@ -1,10 +1,11 @@
 .divProjectContainer{
-    background: teal;
+    background: #F2F2F2;
     padding:  70px 10%;
 }
 
 .divProjectContainer h2{
     font-size: 65px;
+    margin-top: 50px;
 }
 
 .divProjects{
@@ -22,6 +23,7 @@
     margin-bottom: 20px;
     font-size: 35px;
     text-transform: capitalize;
+    display: none;
 }
 
 .divProjectItem div{
@@ -36,7 +38,7 @@
     object-fit: cover;
     z-index: 1;
     transition: all ease .3s;
-    height: 26vh;
+    height: 32vh;
     object-fit: cover;
 }
 
@@ -58,6 +60,7 @@
     transition: all ease .3s;
     text-decoration: none;
     text-align: center;
+    display: none;
 }
 
 

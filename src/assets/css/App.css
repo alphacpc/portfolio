@@ -185,8 +185,9 @@ p{
 
 .divNavbarFixed nav ul li a{
     text-decoration: none;
-    color: teal;
+    color: #16213E;
     font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .downloadCV{
@@ -200,7 +201,7 @@ p{
     bottom: 50px;
     right: 50px;
     display: block;
-    background: teal;
+    background: #16213E;
     padding: 15px 20px;
     border-radius: 50%;
     font-size: 25px;

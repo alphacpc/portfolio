@@ -41,7 +41,7 @@ const HeadComponent = () => {
                     <a href="#about">Présentation</a>
                     <a href="#projects">Projets</a>
                     <a href="#tools">Outils</a>
-                    <a href="#hobbies">Centre d'Interet</a>
+                    <a href="#hobbies">Hobbies</a>
                     <a href="#contact">Contact</a>
                     <button type="download">Téléchager CV</button>
                 </div>

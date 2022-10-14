@@ -25,7 +25,9 @@ export const tools = [
             require("./assets/images/logo/elasticsearch.png"),
             require("./assets/images/logo/neo4j.png"),
             require("./assets/images/logo/postgres.png"),
-            require("./assets/images/logo/mysql.png")
+            require("./assets/images/logo/mysql.png"),
+            require("./assets/images/logo/cassandra.png"),
+            require("./assets/images/logo/hbase.png"),
         ]
     },
     {
@@ -37,6 +39,7 @@ export const tools = [
             require("./assets/images/logo/django.png"),
             require("./assets/images/logo/flutter.png"),
             require("./assets/images/logo/vuejs.png"),
+            require("./assets/images/logo/symfony.png"),
         ]
     },
     {
@@ -58,6 +61,9 @@ export const tools = [
             require("./assets/images/logo/graphql.png"),
             require("./assets/images/logo/figma.png"),
             require("./assets/images/logo/pandas.png"),
+            require("./assets/images/logo/aws.png"),
+            require("./assets/images/logo/logo-jenkins.jpg"),
+            require("./assets/images/logo/power.png"),
         ]
     }
 ]
@@ -137,4 +143,4 @@ export const projects = [
 
 
 
-export const hobbies = ["Football", "HipHop", "E-learning", "Documentary", "Talks Devoxxx", "Teaching", "Travel", "Jogging"]
+export const hobbies = ["Football", "E-learning", "Documentaire", "Talks Devoxxx", "Enseigner", "Voyage", "Programmation", "Agriculture", "Création de contenu Youtube"]

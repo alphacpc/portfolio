@@ -10,7 +10,7 @@
 
 
 .Description{
-    background-color: cadetblue;
+    background-color: #16213E;
     height: 80vh;
     position: absolute;
     right: 0;
@@ -56,7 +56,7 @@
     height: 100%;
     z-index: 44;
     width: 25%;
-    background-color: orange;
+    background-color: orangered;
     border-radius: 0 0% 50% 50%;
 }
 .Photo .LinksSocial{
@@ -118,14 +118,15 @@
     font-family: sans-serif;
     text-transform: capitalize;
     color: #333333;
-    font-size: 20px;
+    font-size: 22px;
     letter-spacing: 1px;
     font-weight: bold;
     transition: all ease .3s;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .ListLinks button{
-    background: teal;
+    background: #16213E;
     border: none;
     padding: 10px;
     border-radius: 20px 40px;
@@ -136,11 +137,11 @@
 }
 
 .ListLinks a:hover{
-    color: teal;
+    color: orangered;
 }
 
 .ListLinks button:hover{
-    background: rgb(26, 77, 77);
+    background: orangered;
 }
 
 
@@ -150,7 +151,7 @@
 /* ******************** */
 
 .boule{
-    background: orange;
+    background: #FDFF00;
     border-radius: 50%;
     position: absolute;
     transition: all ease .3s;

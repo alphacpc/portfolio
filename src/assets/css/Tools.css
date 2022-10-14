@@ -20,18 +20,18 @@
 }
 
 .divToolsContainer .divTitle{
-    background: springgreen;
+    /* background: springgreen; */
 }
 
 .toolsItem h3{
     font-size: 35px;
     margin-bottom: 50px;
     width: 100%;
-    color: tomato;
+    color: #16213E;
 }
 
 .toolsItem h3 span{
-    background: teal;
+    background: orangered;
     padding: 0px 20px;
     border-radius: 50%;
     margin-right: 40px;

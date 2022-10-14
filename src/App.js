@@ -45,7 +45,7 @@ const App = () => {
             <li><a href="#about">Présentation</a></li>
             <li><a href="#projects">Projets</a></li>
             <li><a href="#tools">Outils</a></li>
-            <li><a href="#hobbies">Centre d'Interet</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>

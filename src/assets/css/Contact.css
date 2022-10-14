@@ -1,5 +1,5 @@
 .containerContact{
-    padding: 8vh 10%;
+    padding: 10vh 10%;
     flex-wrap: wrap;
     align-items: center;
 }
@@ -13,8 +13,9 @@
 }
 
 .contactItem div span{
-    font-size: 20px;
+    font-size: 25px;
     letter-spacing: 0.5px !important;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .contactItem .dis-flex{

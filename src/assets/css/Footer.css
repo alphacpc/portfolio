@@ -1,6 +1,14 @@
 .divFooter{
-    background: teal;
+    background: #16213E;
     color: #FFF;
-    padding: 20px 10%;
+    padding: 50px 10%;
     text-align: center;
+}
+
+.divFooter p{
+    font-size: 25px;
+}
+
+.lovers{
+    color: red;
 }
