@@ -1,6 +1,6 @@
 import React from 'react'
 import './../assets/css/About.css';
-import Photo from "./../assets/images/photo3.png"
+import Photo from "./../assets/images/me.png"
 
 
 const About = () => {
@@ -31,7 +31,7 @@ const About = () => {
           </div>
  
           <div className="divImageMe">
-            <img src={Photo} alt="Alpha amadou DIALLO" />
+            <img src={Photo} alt="alphacpc" />
           </div>
 
         </div>

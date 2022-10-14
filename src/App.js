@@ -39,7 +39,7 @@ const App = () => {
       <HeadComponent/>
       
       <div className="divNavbarFixed">
-        <img src={ Logo } alt="Hello"/>
+        <img src={ Logo } alt="dakarscript"/>
         <nav>
           <ul>
             <li><a href="#about">Présentation</a></li>
