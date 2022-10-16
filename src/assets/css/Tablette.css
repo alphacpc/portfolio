@@ -35,6 +35,13 @@
         flex-direction: row ;
     }
 
+    #about .divDisplay{
+        margin: 0;
+    }
+
+    .divAbout p, .divAbout p span{
+        font-size: 20px;
+    }
 
     /* ********************** */
     /* ****** Projects ***** */
@@ -118,7 +125,7 @@
     }
 
     .contactItem{
-        margin: 40px;
+        margin: 40px 0;
     }
 
 

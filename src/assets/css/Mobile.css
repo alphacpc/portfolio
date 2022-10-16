@@ -8,6 +8,18 @@
         padding-top: 100px;
     }
 
+    .divAboutContainer h2 {
+        margin-bottom: 0px;
+    }
+
+    .divAbout div span{
+        display: none;
+    }
+
+    .divAbout p, .divAbout p span {
+        font-size: 20px;
+        line-height: 35px;
+    }
 
 
     /* ********************** */
@@ -88,7 +100,7 @@
     }
 
     .contactItem{
-        margin: 40px;
+        margin: 40px 0;
     }
 
 
