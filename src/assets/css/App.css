@@ -1,211 +1,112 @@
 *{
-    font-family: sans-serif;
-    letter-spacing: 1px;
-    list-style: none;
     padding: 0;
     margin: 0;
+    font-size: 20px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
 }
 
 
-/* ------- FLEXIBLE ------ */
-.dis-flex{
+/* ********** HEADER *********** */
+header{
+    background: pink;
     display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
 }
 
-.dis-flex.space{
+header nav ul{
+    display: flex;
+    align-items: center;
+    background: chartreuse;
+}
+
+header nav ul li{
+    margin: 0 20px;
+}
+
+/* ********** FIN HEADER*********** */
+
+
+
+/* *********** HOME PAGE ********** */
+.divIntro{
+    background: turquoise;
+    min-height: 100vh;
+}
+
+.divIntro .divSectionHeader{
+    display: flex;
+    background: sandybrown;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
-.dis-flex.col{
+
+.divIntro .divSectionHeader .divRight,
+.divIntro .divSectionHeader .divLeft{
+    flex: 1;
+    position: relative;
+    height: 80% ;
+}
+
+
+.divIntro .divSectionHeader .divLeft{
+    background:  #F05;
+    display: flex;
     flex-direction: column;
-}
-
-.dis-flex.align-center{
+    justify-content: center;
     align-items: center;
+    padding: 5% ;
 }
 
-/* --------FONT SIZE------- */
-h2{
-    font-size: 35px;
-    line-height: 45px;
-}
-
-h1, h2.small{
+.divLeft h1{
     font-size: 45px;
-    line-height: 60px;
-}
-
-h3{
-    font-size: 25;
-    line-height: 35px;
-}
-
-p{
-    font-size: 20px;
-    line-height: 30px;
-}
-
-.text-center{
-    text-align: center;
-}
-
-/* -------- MARGIN ------- */
-.mg-bt-20{
-    margin-bottom: 20px;
-}
-
-.mg-tp-20{
-    margin-top: 20px;
-}
-
-.mg-20{
-    margin: 20px;
-}
-
-.mg-v-20{
+    font-weight: bold;
     margin: 20px 0;
 }
 
-.mg-h-20{
-    margin: 0 20px ;
+.divLeft h3{
+    font-size: 35px;
 }
 
-
-
-
-.mg-bt-10{
-    margin-bottom: 10px;
+.divLeft h2{
+    font-size: 45px;
+    margin: 20px 0;
 }
 
-.mg-tp-10{
-    margin-top: 10px;
-}
-
-.mg-10{
-    margin: 10px;
-}
-
-.mg-v-10{
-    margin: 10px 0;
-}
-
-.mg-h-10{
-    margin: 0 10px ;
-}
-
-
-
-/* -------- PADDING ------- */
-.pd-bt-20{
-    padding-bottom: 20px;
-}
-
-.pd-tp-20{
-    padding-top: 20px;
-}
-
-.pd-20{
-    padding: 20px;
-}
-
-.pd-v-20{
-    padding: 20px 0;
-}
-
-.pd-h-20{
-    padding: 0 20px ;
-}
-
-
-
-.pd-bt-10{
-    padding-bottom: 10px;
-}
-
-.pd-tp-10{
-    padding-top: 10px;
-}
-
-.pd-10{
-    padding: 10px;
-}
-
-.pd-15{
-    padding: 15px;
-}
-
-.pd-v-10{
-    padding: 10px 0;
-}
-
-.pd-h-10{
-    padding: 0 10px ;
-}
-
-
-
-
-/* ************************** */
-/* ***** Fixed NavBar ****** */
-/* ************************ */
-.divNavbarFixed{
-    display: none;
-    align-items: center;
-    background: orange;
-    padding: 10px 10%;
-    justify-content: space-between;
-    transition: all ease .3s;
-}
-
-.divNavbarFixed.fixed{
-    background: #fff !important;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-    top:0;
+.divIntro .divSectionHeader .divRight{
+    background: royalblue;
     display: flex;
 }
 
-.divNavbarFixed img{
-    width: 60px;
-    height: 60px;
+.divIntro .divRight div{
+    background: seagreen;
+    padding: 300px;
+    position: absolute;
     border-radius: 50%;
-    object-fit: contain;
-    cursor: pointer;
+    overflow-x: hidden;
 }
 
-.divNavbarFixed nav ul{
-    display: flex;
+.divIntro .divRight div.one{
+    right: 1%;
+    top: 0%;
 }
 
-.divNavbarFixed nav ul li{
-    margin: 0 20px ;
-    font-size: 20px;
+
+.divIntro .divRight div.second{
+    padding: 150px;
+    background: yellow;
+    bottom: 0;
 }
 
-.divNavbarFixed nav ul li a{
-    text-decoration: none;
-    color: #16213E;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.downloadCV{
-    display: none;
-    cursor: pointer;
-    transition: all ease .3s;
-}
-
-.downloadCV.bottom{
-    position: fixed;
-    bottom: 50px;
-    right: 50px;
-    display: block;
-    background: #16213E;
-    padding: 15px 20px;
-    border-radius: 50%;
-    font-size: 25px;
-    color: #FFF;
-    border: none;
-    box-shadow: 0 4px 8px 0 #000000;
+.divIntro .divRight img{
+    z-index: 2;
 }
