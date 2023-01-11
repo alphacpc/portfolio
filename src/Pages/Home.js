@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import CardService from '../components/CardService'
 import Navbar from '../components/Navbar'
 
@@ -27,7 +27,7 @@ const Home = () => {
                     <div className="divRight">
                         <div className='one'></div>
                         <div className='second'></div>
-                        <img src={image}/>
+                        <img src={image} alt="Profil user"/>
                     </div>
                 </div>
 
