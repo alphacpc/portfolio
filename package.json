@@ -12,7 +12,8 @@
   },
   "optionalDependencies": {
     "fsevents": "^2.3.2",
-    "sane":"5.0.1"
+    "sane":"5.0.1",
+    "core-js": "^3.27.1"
   },
   "scripts": {
     "start": "react-scripts start",
