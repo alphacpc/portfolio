@@ -3,16 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@headlessui/react": "^1.7.16",
+    "@material-tailwind/react": "^2.0.7",
+    "autoprefixer": "^10.4.14",
+    "classnames": "^2.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.3",
-    "react-scripts": "4.0.3"
+    "react-scripts": "^5.0.1"
   },
   "optionalDependencies": {
-    "fsevents": "^2.3.2",
-    "sane":"5.0.1",
     "core-js": "^3.27.1",
-    "w3c-hr-time":"1.0.0"
+    "fsevents": "^2.3.2",
+    "sane": "5.0.1",
+    "w3c-hr-time": "1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
   }
 }
