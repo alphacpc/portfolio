@@ -11,14 +11,10 @@
     "classnames": "^2.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
     "react-router-dom": "^6.4.3",
-    "react-scripts": "^5.0.1"
-  },
-  "optionalDependencies": {
-    "core-js": "^3.27.1",
-    "fsevents": "^2.3.2",
-    "sane": "5.0.1",
-    "w3c-hr-time": "1.0.0"
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^3.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
