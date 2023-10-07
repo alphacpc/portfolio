@@ -11,7 +11,7 @@ function App() {
     <div className="App flex flex-col items-center">
 
       <header className="min-h-screen">
-        <div className="link-socials p-2 bg-amber-400">
+        <div className="link-socials p-2 bg-amber-400 flex">
           <LinkSocialComponent icon={<BsMedium/>} link="/"/>
           <LinkSocialComponent icon={<FiLinkedin/>} link="/"/>
           <LinkSocialComponent icon={<FiGithub/>} link="/"/>
