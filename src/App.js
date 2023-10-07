@@ -2,7 +2,7 @@ import ImageProjectComponent from "./Components/ImageProjectComponent";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { BsMedium } from "react-icons/bs";
 import { FiLinkedin, FiGithub, FiYoutube, FiTwitter  } from "react-icons/fi";
-import { NavLink } from 'react-router-dom';
+import LinkSocialComponent from "./Components/LinkSocialComponent";
 
 
 
@@ -12,9 +12,11 @@ function App() {
 
       <header className="min-h-screen">
         <div className="link-socials p-2 bg-amber-400">
-          <NavLink to="/" className={"link"}>
-            <BsMedium/>
-          </NavLink>
+          <LinkSocialComponent icon={<BsMedium/>} link="/"/>
+          <LinkSocialComponent icon={<FiLinkedin/>} link="/"/>
+          <LinkSocialComponent icon={<FiGithub/>} link="/"/>
+          <LinkSocialComponent icon={<FiYoutube/>} link="/"/>
+          <LinkSocialComponent icon={<FiTwitter/>} link="/"/>
         </div>
       </header>
 
