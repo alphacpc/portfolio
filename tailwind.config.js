@@ -1,13 +1,11 @@
 /** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}", "./node_modules/react-tailwindcss-datepicker/dist/index.esm.js"],
 
-const withMT = require("@material-tailwind/react/src/utils/withMT");
- 
-module.exports = withMT({
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {
-      fontFamily:{ Montserrat : "Montserrat"}
-    },
+    extend: {},
   },
   plugins: [],
-});
+}
+
+
