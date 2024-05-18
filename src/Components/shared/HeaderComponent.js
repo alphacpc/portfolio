@@ -1,6 +1,6 @@
 import LinkSocialComponent from './LinkSocialComponent';
 import { BsMedium } from 'react-icons/bs';
-import { FiGithub, FiLinkedin, FiTwitter, FiYoutube, FiDownload,
+import { FiGithub, FiLinkedin, FiYoutube, FiDownload,
         FiMap, FiCalendar, FiArrowDown, FiMail, FiUser } 
 from 'react-icons/fi';
 import url_image from "./../../Assets/Images/image.png";
