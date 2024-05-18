@@ -7,7 +7,7 @@ import url_image from "./../../Assets/Images/image.png"
 const HeaderComponent = () => {
   return (
         <header className="min-h-screen relative">
-                <div className="link-socials bg-orange-300 flex justify-center">
+                <div className="link-socials flex justify-center">
                         <div className="bg-orange-600 flex p-4">
                                 <LinkSocialComponent icon={<BsMedium/>} link="/"/>
                                 <LinkSocialComponent icon={<FiLinkedin/>} link="/"/>
@@ -25,12 +25,22 @@ const HeaderComponent = () => {
                                         <span className="bg-orange-700 p-2 rounded-md shadow-lg mr-2">Data Engineer</span>
                                         <span className="bg-orange-700 p-2 rounded-md shadow-lg">Fraud Analyst</span>
                                 </div>
-                                <h1 className="font-semibold text-6xl mt-10 text-white">Alpha amadou DIALLO</h1>
-                                <p className="my-10 text-xl text leading-8">
+                                <h1 className="font-bold uppercase text-6xl mt-10 text-white">Alpha amadou DIALLO</h1>
+                                <p className="my-10 text-xl text leading-8 text-white">
                                         Versatile developer with skills in web development, DevOps, 
                                         data engineering and fraud analysis. Passionate about technology, mathematics and agriculture.
                                 </p>
-                                <div>
+
+                                <div className="flex h-[10vh] bg-yellow-300 mb-20 justify-between">
+                                        <div className="flex flex-col justify-center items-center">
+                                                <span className="bg-lime-500 px-8 py-6 text-4xl font-bold rounded-full mb-4">3</span> 
+                                                <span>Entreprise</span>
+                                        </div>
+                                        <div>+2ans d'expériances</div>
+                                        <div>+50 repositories github</div>
+                                </div>
+
+                                <div className="">
                                         <a href='#' className="p-4 uppercase rounded-md bg-green-500">Download CV</a>
                                 </div>
                         </div>
