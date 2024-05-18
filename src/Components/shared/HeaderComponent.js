@@ -1,7 +1,9 @@
 import React from 'react'
 import LinkSocialComponent from '../LinkSocialComponent'
 import { BsMedium } from 'react-icons/bs'
-import { FiGithub, FiLinkedin, FiTwitter, FiYoutube, FiMap, FiCalendar, FiArrowDown, FiMail, FiUser } from 'react-icons/fi'
+import { FiGithub, FiLinkedin, FiTwitter, FiYoutube, FiDownload,
+        FiMap, FiCalendar, FiArrowDown, FiMail, FiUser } 
+from 'react-icons/fi'
 import url_image from "./../../Assets/Images/image.png"
 import { Link } from 'react-router-dom'
 import SkillComponent from './SkillComponent'
@@ -45,8 +47,11 @@ const HeaderComponent = () => {
                                         <StatComponent value="4" label="Formations"/>
                                 </div>
 
-                                <div className="">
-                                        <Link to='/#' className="p-4 uppercase font-bold shadow-xl rounded-md bg-orange-300">Download CV</Link>
+                                <div className="flex">
+                                        <Link to='/#' className="p-4 flex uppercase font-bold shadow-xl rounded-md bg-orange-300">
+                                                <FiDownload size={20} className="mr-4"/>
+                                                Download CV
+                                        </Link>
                                 </div>
                         </div>
                         <div className="relative flex justify-center bg-pink-100 shadow-xl ml-40 rounded-full flex-1">
