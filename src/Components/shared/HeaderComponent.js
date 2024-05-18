@@ -63,10 +63,10 @@ const HeaderComponent = () => {
                                 </p>
 
                                 <div className="div-stats flex py-4 bg-yellow- mb-20 justify-between">
-                                        <StatComponent value="3" label="Entreprises"/>
-                                        <StatComponent value="+3" label="Ans d'expériences"/>
+                                        <StatComponent value="3" label="Compagnies"/>
+                                        <StatComponent value="+3" label="Years of Experience"/>
                                         <StatComponent value="+50" label="Repositories Github"/>
-                                        <StatComponent value="4" label="Formations"/>
+                                        <StatComponent value="4" label="Training"/>
                                 </div>
 
                                 <div className="flex">
