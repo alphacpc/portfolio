@@ -48,6 +48,7 @@ const HeaderComponent = () => {
                                                 <span className="bg-lime-500 px-8 py-6 text-4xl font-bold rounded-full mb-2">3</span> 
                                                 <span>Entreprise</span>
                                         </div>
+                                        
                                         {/* <div>+2ans d'expériances</div>
                                         <div>+50 repositories github</div> */}
                                 </div>
@@ -63,7 +64,7 @@ const HeaderComponent = () => {
                 </div>
 
 
-                <div className="p-4 bg-amber-200 absolute bottom-0 w-full flex items-center justify-between">
+                <div className="p-4 bg-amber-20 absolute bottom-0 w-full flex items-center justify-between">
                         <FiMap/> Senegal, Dakar
                         <FiCalendar/> 12/12/2024
                         <FiMail /> alphacpc@gmail.com
