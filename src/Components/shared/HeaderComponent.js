@@ -5,6 +5,7 @@ import { FiGithub, FiLinkedin, FiTwitter, FiYoutube, FiMap, FiCalendar, FiArrowD
 import url_image from "./../../Assets/Images/image.png"
 import { Link } from 'react-router-dom'
 import SkillComponent from './SkillComponent'
+import StatComponent from './StatComponent'
 
 const HeaderComponent = () => {
   return (
@@ -37,24 +38,11 @@ const HeaderComponent = () => {
                                         data engineering and fraud analysis. Passionate about technology, mathematics and agriculture.
                                 </p>
 
-                                <div className="flex py-4 bg-yellow- mb-20 justify-between">
-                                        <div className="flex flex-col bg-lime200 w-1/3 justify-center items-center border-l-2">
-                                                <span className="border-2 p-4 py- text-4xl text-white font-bold rounded mb-2">3</span> 
-                                                <span className="text-white font-bold italic text-lg">Entreprises</span>
-                                        </div>
-                                        <div className="flex flex-col bg-pink20 w-1/3 justify-center items-center border-l-2">
-                                                <span className="border-2 p-4 text-4xl text-white font-bold rounded mb-2">+3</span> 
-                                                <span className="text-white font-bold italic text-lg">Ans d'expériences</span>
-                                        </div>
-                                        <div className="flex flex-col bg-teal-0 w-1/3 justify-center items-center border-l-2">
-                                                <span className="border-2 p-4 text-4xl text-white font-bold rounded mb-2">+50</span> 
-                                                <span className="text-white font-bold italic text-lg">Repositories Github</span>
-                                        </div>
-                                        <div className="flex flex-col bg-tea200 w-1/3 justify-center items-center border-x-2">
-                                                <span className="border-2 p-4  text-4xl text-white font-bold rounded mb-2">4</span> 
-                                                <span className="text-white font-bold italic text-lg">Formations</span>
-                                        </div>
-                                        
+                                <div className="div-stats flex py-4 bg-yellow- mb-20 justify-between">
+                                        <StatComponent value="3" label="Entreprises"/>
+                                        <StatComponent value="+3" label="Ans d'expériences"/>
+                                        <StatComponent value="+50" label="Repositories Github"/>
+                                        <StatComponent value="4" label="Formations"/>
                                 </div>
 
                                 <div className="">
