@@ -1,4 +1,3 @@
-import React from 'react'
 import { NavLink } from 'react-router-dom';
 
 
@@ -8,4 +7,4 @@ const LinkSocialComponent = ({icon, link}) => {
   )
 }
 
-export default LinkSocialComponent
+export default LinkSocialComponent;

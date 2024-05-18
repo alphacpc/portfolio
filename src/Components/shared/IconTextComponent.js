@@ -1,8 +1,9 @@
-import React from 'react'
 
-const IconTextComponent = () => {
+const IconTextComponent = ({icon, text}) => {
   return (
-    <div>IconTextComponent</div>
+        <div className="flex items-center text-white font-bold">
+                {icon} {text}
+        </div>
   )
 }
 

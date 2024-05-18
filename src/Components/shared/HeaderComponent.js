@@ -1,13 +1,13 @@
-import React from 'react'
-import LinkSocialComponent from '../LinkSocialComponent'
-import { BsMedium } from 'react-icons/bs'
+import LinkSocialComponent from './LinkSocialComponent';
+import { BsMedium } from 'react-icons/bs';
 import { FiGithub, FiLinkedin, FiTwitter, FiYoutube, FiDownload,
         FiMap, FiCalendar, FiArrowDown, FiMail, FiUser } 
-from 'react-icons/fi'
-import url_image from "./../../Assets/Images/image.png"
-import { Link } from 'react-router-dom'
-import SkillComponent from './SkillComponent'
-import StatComponent from './StatComponent'
+from 'react-icons/fi';
+import url_image from "./../../Assets/Images/image.png";
+import { Link } from 'react-router-dom';
+import SkillComponent from './SkillComponent';
+import StatComponent from './StatComponent';
+import IconTextComponent from './IconTextComponent';
 
 const HeaderComponent = () => {
   return (
@@ -55,31 +55,20 @@ const HeaderComponent = () => {
                                 </div>
                         </div>
                         <div className="relative flex justify-center bg-pink-100 shadow-xl ml-40 rounded-full flex-1">
-                                <img src={url_image} alt="image" className=""/>
+                                <img src={url_image} alt="alphacp"/>
                         </div>
                 </div>
 
 
                 <div className="p-4 bg-amber-20 absolute bottom-0 w-full flex items-center justify-between">
-                        
-                        <div className="flex items-center text-white font-bold">
-                        <FiMap className="mr-4"/> Senegal, Dakar
-                        </div>
-                        <div className="flex items-center text-white font-bold">
-                        <FiCalendar className="mr-4"/> 12/12/2024
-                        </div>
-
+                        <IconTextComponent icon={<FiMap className="mr-4"/> } text="Senegal, Dakar" />
+                        <IconTextComponent icon={<FiCalendar className="mr-4"/> } text="12/12/2024" />
                         <FiArrowDown className="bg-emerald-500 rounded-full p-2" size={50} color='white'/>
-                        
-                        <div className="flex items-center text-white font-bold">
-                        <FiMail className="mr-4"/> alphacpc@gmail.com
-                        </div>
-                        <div className="flex items-center text-white font-bold">
-                        <FiUser className="mr-4"/> freelancer
-                        </div>
+                        <IconTextComponent icon={<FiMail className="mr-4"/> } text="alphacpc@gmail.com" />
+                        <IconTextComponent icon={<FiUser className="mr-4"/> } text="freelancer" />
                 </div>
       </header>
   )
 }
 
-export default HeaderComponent
+export default HeaderComponent;
