@@ -4,6 +4,7 @@ import { BsMedium } from 'react-icons/bs'
 import { FiGithub, FiLinkedin, FiTwitter, FiYoutube, FiMap, FiCalendar, FiArrowDown, FiMail, FiUser } from 'react-icons/fi'
 import url_image from "./../../Assets/Images/image.png"
 import { Link } from 'react-router-dom'
+import SkillComponent from './SkillComponent'
 
 const HeaderComponent = () => {
   return (
@@ -20,13 +21,17 @@ const HeaderComponent = () => {
 
                 <div className="relative flex items-center justify-between px-[10%] py-[5%]">
                         <div className="flex-1">
-                                <div>
-                                        <span className="bg-yellow-500 p-2 font-bold rounded-md shadow-lg mr-2">Fullstack Developer</span>
-                                        <span className="bg-orange-500 p-2 font-bold rounded-md shadow-lg mr-2">Junior DevOps</span>
-                                        <span className="bg-pink-500 p-2 font-bold text-white rounded-md shadow-lg mr-2">Data Engineer</span>
-                                        <span className="bg-sky-500 p-2 font-bold rounded-md shadow-lg">Fraud Analyst</span>
+                                <div className="div-skills">
+                                        <SkillComponent bg="bg-yellow-500" text="Fullstack Developer"/>
+                                        <SkillComponent bg="bg-orange-500" text="Junior DevOps"/>
+                                        <SkillComponent bg="bg-pink-500" color="text-white" text="Data Engineer"/>
+                                        <SkillComponent bg="bg-sky-500" text="Fraud Analyst" />
                                 </div>
-                                <h1 className="font-bold uppercase text-6xl mt-10 text-white">Alpha amadou DIALLO</h1>
+                                
+                                <h1 className="font-bold uppercase text-6xl mt-10 text-white">
+                                        Alpha amadou DIALLO
+                                </h1>
+                                
                                 <p className="my-10 text-xl text leading-8 text-white">
                                         Versatile developer with skills in web development, DevOps, 
                                         data engineering and fraud analysis. Passionate about technology, mathematics and agriculture.
