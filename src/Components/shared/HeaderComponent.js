@@ -1,5 +1,5 @@
 import LinkSocialComponent from './LinkSocialComponent';
-import { BsMedium } from 'react-icons/bs';
+import { BsMedium, BsPersonWorkspace } from 'react-icons/bs';
 import { FiGithub, FiLinkedin, FiYoutube, FiDownload,
         FiMap, FiCalendar, FiArrowDown, FiMail, FiUser } 
 from 'react-icons/fi';
@@ -9,8 +9,31 @@ import SkillComponent from './SkillComponent';
 import StatComponent from './StatComponent';
 import IconTextComponent from './IconTextComponent';
 
+
+const FORMAT_DATE = (input_date, type_date) => {
+  
+        let datetime_sep = input_date.split("T");
+        let date_split = datetime_sep[0].split("-");
+      
+      
+        if(type_date === "datetime"){
+              return `${date_split[2]}/${date_split[1]}/${date_split[0]} ${datetime_sep[1].split(".")[0]}`;
+        } 
+        
+        else if(type_date === "date") {
+              return `${date_split[2]}/${date_split[1]}/${date_split[0]}`;
+        }
+        
+        else return "01/01/1900"
+      
+};
+
+
 const HeaderComponent = () => {
-  return (
+
+        const currentDate = new Date().toISOString();
+
+        return (
         <header className="min-h-screen relative">
                 <div className="link-socials flex justify-center">
                         <div className="bg-orange-500 flex p-4">
@@ -61,10 +84,14 @@ const HeaderComponent = () => {
 
                 <div className="p-4 bg-amber-20 absolute bottom-0 w-full flex items-center justify-between">
                         <IconTextComponent icon={<FiMap className="mr-4"/> } text="Senegal, Dakar" />
-                        <IconTextComponent icon={<FiCalendar className="mr-4"/> } text="12/12/2024" />
+                        <IconTextComponent icon={<FiCalendar className="mr-4"/> } text={FORMAT_DATE(currentDate, "date")} />
+                        <IconTextComponent icon={<FiUser className="mr-4"/> } text="alphacpc" />
+                        
                         <FiArrowDown className="bg-emerald-500 rounded-full p-2" size={50} color='white'/>
+                        
                         <IconTextComponent icon={<FiMail className="mr-4"/> } text="alphacpc@gmail.com" />
-                        <IconTextComponent icon={<FiUser className="mr-4"/> } text="freelancer" />
+                        <IconTextComponent icon={<BsPersonWorkspace className="mr-4"/> } text="freelancer" />
+                        <IconTextComponent text="&copy; Copyright reserved alphacpc" />
                 </div>
       </header>
   )
