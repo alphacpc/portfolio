@@ -14,11 +14,10 @@ const HeaderComponent = () => {
         <header className="min-h-screen relative">
                 <div className="link-socials flex justify-center">
                         <div className="bg-orange-500 flex p-4">
-                                <LinkSocialComponent icon={<BsMedium/>} link="/"/>
-                                <LinkSocialComponent icon={<FiLinkedin/>} link="/"/>
-                                <LinkSocialComponent icon={<FiGithub/>} link="/"/>
-                                <LinkSocialComponent icon={<FiYoutube/>} link="/"/>
-                                <LinkSocialComponent icon={<FiTwitter/>} link="/"/>
+                                <LinkSocialComponent icon={<BsMedium/>} link="https://medium.com/@alphacpc"/>
+                                <LinkSocialComponent icon={<FiLinkedin/>} link="https://www.linkedin.com/in/alpha-amadou-diallo/"/>
+                                <LinkSocialComponent icon={<FiGithub/>} link="https://github.com/alphacpc"/>
+                                <LinkSocialComponent icon={<FiYoutube/>} link="https://www.youtube.com/@phonse444"/>
                         </div>
                 </div>
 
