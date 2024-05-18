@@ -3,6 +3,7 @@ import LinkSocialComponent from '../LinkSocialComponent'
 import { BsMedium } from 'react-icons/bs'
 import { FiGithub, FiLinkedin, FiTwitter, FiYoutube, FiMap, FiCalendar, FiArrowDown, FiMail, FiUser } from 'react-icons/fi'
 import url_image from "./../../Assets/Images/image.png"
+import { Link } from 'react-router-dom'
 
 const HeaderComponent = () => {
   return (
@@ -33,31 +34,30 @@ const HeaderComponent = () => {
 
                                 <div className="flex py-4 bg-yellow- mb-20 justify-between">
                                         <div className="flex flex-col bg-lime200 w-1/3 justify-center items-center border-l-2">
-                                                <span className="border-4 px-8 py-6 text-4xl text-white font-bold rounded-full mb-2">3</span> 
-                                                <span className="text-white italic text-lg">Entreprises</span>
+                                                <span className="border-2 p-4 py- text-4xl text-white font-bold rounded mb-2">3</span> 
+                                                <span className="text-white font-bold italic text-lg">Entreprises</span>
                                         </div>
                                         <div className="flex flex-col bg-pink20 w-1/3 justify-center items-center border-l-2">
-                                                <span className="border-4 px-8 py-6 text-4xl text-white font-bold rounded-full mb-2">3</span> 
-                                                <span className="text-white italic text-lg">Ans d'expériences</span>
+                                                <span className="border-2 p-4 text-4xl text-white font-bold rounded mb-2">+3</span> 
+                                                <span className="text-white font-bold italic text-lg">Ans d'expériences</span>
                                         </div>
                                         <div className="flex flex-col bg-teal-0 w-1/3 justify-center items-center border-l-2">
-                                                <span className="border-4 px-8 py-6 text-4xl text-white font-bold rounded-full mb-2">3</span> 
-                                                <span className="text-white italic text-lg">Repositories Github</span>
+                                                <span className="border-2 p-4 text-4xl text-white font-bold rounded mb-2">+50</span> 
+                                                <span className="text-white font-bold italic text-lg">Repositories Github</span>
                                         </div>
                                         <div className="flex flex-col bg-tea200 w-1/3 justify-center items-center border-x-2">
-                                                <span className="border-4 px-8 py-6 text-4xl text-white font-bold rounded-full mb-2">3</span> 
-                                                <span className="text-white italic text-lg">Formations</span>
+                                                <span className="border-2 p-4  text-4xl text-white font-bold rounded mb-2">4</span> 
+                                                <span className="text-white font-bold italic text-lg">Formations</span>
                                         </div>
                                         
                                 </div>
 
                                 <div className="">
-                                        <a href='#' className="p-4 uppercase font-bold shadow-xl rounded-md bg-orange-300">Download CV</a>
+                                        <Link to='/#' className="p-4 uppercase font-bold shadow-xl rounded-md bg-orange-300">Download CV</Link>
                                 </div>
                         </div>
                         <div className="relative flex justify-center bg-pink-100 shadow-xl ml-40 rounded-full flex-1">
                                 <img src={url_image} alt="image" className=""/>
-                                {/* <div className="bg-red-300 shadow-sm bg-po p-[300px] z-2 opacity-75 absolute top-10 right-15 rounded-full " /> */}
                         </div>
                 </div>
 
