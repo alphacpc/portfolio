@@ -31,13 +31,25 @@ const HeaderComponent = () => {
                                         data engineering and fraud analysis. Passionate about technology, mathematics and agriculture.
                                 </p>
 
-                                <div className="flex h-[10vh] bg-yellow-300 mb-20 justify-between">
-                                        <div className="flex flex-col justify-center items-center">
-                                                <span className="bg-lime-500 px-8 py-6 text-4xl font-bold rounded-full mb-4">3</span> 
+                                <div className="flex py-4 bg-yellow- mb-20 justify-between">
+                                        <div className="flex flex-col bg-lime200 w-1/3 justify-center items-center border-l-2">
+                                                <span className="bg-lime-500 px-8 py-6 text-4xl font-bold rounded-full mb-2">3</span> 
                                                 <span>Entreprise</span>
                                         </div>
-                                        <div>+2ans d'expériances</div>
-                                        <div>+50 repositories github</div>
+                                        <div className="flex flex-col bg-pink20 w-1/3 justify-center items-center border-l-2">
+                                                <span className="bg-lime-500 px-8 py-6 text-4xl font-bold rounded-full mb-2">3</span> 
+                                                <span>Entreprise</span>
+                                        </div>
+                                        <div className="flex flex-col bg-teal-0 w-1/3 justify-center items-center border-l-2">
+                                                <span className="bg-lime-500 px-8 py-6 text-4xl font-bold rounded-full mb-2">3</span> 
+                                                <span>Entreprise</span>
+                                        </div>
+                                        <div className="flex flex-col bg-tea200 w-1/3 justify-center items-center border-x-2">
+                                                <span className="bg-lime-500 px-8 py-6 text-4xl font-bold rounded-full mb-2">3</span> 
+                                                <span>Entreprise</span>
+                                        </div>
+                                        {/* <div>+2ans d'expériances</div>
+                                        <div>+50 repositories github</div> */}
                                 </div>
 
                                 <div className="">
@@ -55,6 +67,7 @@ const HeaderComponent = () => {
                         <FiMap/> Senegal, Dakar
                         <FiCalendar/> 12/12/2024
                         <FiMail /> alphacpc@gmail.com
+                        freelencer
                         <FiArrowDown className="bg-emerald-500 rounded-full p-2" size={50} color='white'/>
                 </div>
       </header>
