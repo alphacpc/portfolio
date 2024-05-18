@@ -55,28 +55,28 @@ const HeaderComponent = () => {
                                         <a href='#' className="p-4 uppercase font-bold shadow-xl rounded-md bg-orange-300">Download CV</a>
                                 </div>
                         </div>
-                        <div className="relative flex justify-center flex-1">
+                        <div className="relative flex justify-center bg-pink-100 shadow-xl ml-40 rounded-full flex-1">
                                 <img src={url_image} alt="image" className=""/>
-                                <div className="bg-red-300 bg-po p-[300px] z-2 opacity-75 absolute top-10 right-15 rounded-full " />
+                                {/* <div className="bg-red-300 shadow-sm bg-po p-[300px] z-2 opacity-75 absolute top-10 right-15 rounded-full " /> */}
                         </div>
                 </div>
 
 
                 <div className="p-4 bg-amber-20 absolute bottom-0 w-full flex items-center justify-between">
                         
-                        <div className="flex items-center text-white">
+                        <div className="flex items-center text-white font-bold">
                         <FiMap className="mr-4"/> Senegal, Dakar
                         </div>
-                        <div className="flex items-center text-white">
+                        <div className="flex items-center text-white font-bold">
                         <FiCalendar className="mr-4"/> 12/12/2024
                         </div>
 
                         <FiArrowDown className="bg-emerald-500 rounded-full p-2" size={50} color='white'/>
                         
-                        <div className="flex items-center text-white">
+                        <div className="flex items-center text-white font-bold">
                         <FiMail className="mr-4"/> alphacpc@gmail.com
                         </div>
-                        <div className="flex items-center text-white">
+                        <div className="flex items-center text-white font-bold">
                         <FiUser className="mr-4"/> freelancer
                         </div>
                 </div>
